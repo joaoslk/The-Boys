@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('/img/background.jpg');    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navigation .primevideo{
+    width: 120px;
+    height: 50px;
+    margin: 20px 20px;
+}
+
+header .btn-p{
+    width: 30px;
+}
+
+header .btn-p1{
+    color: white;
+}
+
+header .perfil{
+    width: 40px;
+}
+
+header .navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+header .navigation ul li{
+    list-style: none;
+}
+
+header .navigation ul a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.content img{
+    width: 500px;
+    margin: 90px 30px;
+}
+
+.content .btn{
+    padding: 0px 50px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 45px;
+    transition: all .3s;
+    color: #fff;
+    background: #425265;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2em; 
+}
+
+.btn a:hover{
+    transition: 0.4s;
+    background: #2d3846;;
+}
+
+.text{
+    margin: 40px 30px;
+}
+
+.text p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.watch span img{
+    width: 50px;
+    margin: 0px 20px;
+}
+.watch{
+    display: flex;
+    margin: 20px 40px;
+    padding: 10px 0px;
+}
+
+.watch a{
+    text-decoration: none;
+    color: white;
+}
+
+.watch{
+    cursor: pointer;
+    background: #0073ff;
+    border-bottom: 2px solid #fff;
+    width: 300px;   
+}
+
+.watch:hover{
+    transition: 0.4s;
+    background: #425265;
+}
